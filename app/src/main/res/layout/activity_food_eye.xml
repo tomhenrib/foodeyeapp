@@ -8,7 +8,7 @@
     tools:context=".FoodEye">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/main_textview_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -19,19 +19,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/main_edittext_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/prompt_name"
         android:autofillHints="@string/prompt_name"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/main_button_hello"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_textview_hello" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/main_button_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
